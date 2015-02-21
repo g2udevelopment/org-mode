@@ -1,0 +1,92 @@
+* Github
+** Change http to ssh
+To change a https url to ssh, change the https:// part to git@github.com.
+
+command: git remote set-url origin git@github.com:<Username>/<Project>.git
+** Add ssh key to github
+First generate an ssh key [[Generate ssh key]]. 
+Then copy the public key to the keyboard using [[Copy from terminal to clipb
+** Generate ssh key
+To generate an ssh key execute.
+
+#+begin_src sh
+ssh-keygen -t rsa -C "g2udevelopment@icloud.com"
+#+end_src
+
+** Push changes to upstream repository
+To Push changes to the upstream repository  we can execute:
+
+#+begin_src sh
+git push origin master
+#+end_src
+
+* Emacs
+** Navigation
+| Key | Action                   |
+|-----+--------------------------|
+| C-f | Forward in line          |
+| C-b | Backwards in line        |
+| C-n | Next line                |
+| C-p | Previous line            |
+|-----+--------------------------|
+| C-e | Goto end of line         |
+| C-a | Goto beginning of line   |
+| M-e | Goto end of file         |
+| M-a | Goto beginning of buffer |
+|-----+--------------------------|
+| M-f | Move forward word        |
+| M-b | Move backwards word      |
+
+** Working with buffer and files
+| Key     | Action          |
+|---------+-----------------|
+| C-x b   | Show buffers    |
+| M-x     | Execute command |
+| C-x C-s | Save            |
+| C-x C-w | Save as         |
+| C-x C-f | Open a file     |
+
+** Delete and killing
+| Key | Action            |
+|-----+-------------------|
+| C-w | kill the region   |
+| C-k | kill rest of line |
+|     |                   |
+** Working with windows
+| Key   | Action                                |
+|-------+---------------------------------------|
+| C-x 2 | Create new window from current buffer |
+| C-x o | Cycle between windows                 |
+| C-x 0 | Delete active window                  |
+** Customizing
+* Org-mode
+** General tips
+Start org-mode info with M-x org-info
+** Motion
+
+| Key       | Action                           | Comment |
+|-----------+----------------------------------+---------|
+| C-c c-n/p | next/previous heading            |         |
+| C-c c-f/b | next previous heading same level |         |
+|           |                                  |         |
+|           |                                  |         |
+** Structure editing
+| Key     | Action                    |
+|---------+---------------------------|
+| M-<Ret> | Insert new heading on top |
+| C-<Ret> | Insert new heading on top |
+|         |                           |
+** Links
+Internal links can be created by surrounding with double square brackets.
+
+| Key     | Action      |
+|---------+-------------|
+| C-c C-o | Follow link |
+|         |             |
+|         |             |
+* General tips
+** Copy from terminal to clipboard
+To copy something to the clipboard from the terminal use pbcopy.
+
+For example:
+$ pbcopy < ~/.ssh/id_rsa.pub
