@@ -20,6 +20,12 @@ To Push changes to the upstream repository  we can execute:
 git push origin master
 #+end_src
 
+** Add upstream repository
+
+#+begin_src sh
+git remote add origin git@github.com:g2udevelopment/<repository>.git
+#+end_src
+
 * Emacs
 ** Navigation
 | Key | Action                   |

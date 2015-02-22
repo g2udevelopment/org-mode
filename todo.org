@@ -1,0 +1,15 @@
+* Private							      :crypt:
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+hQEMAx51imzZfprpAQgAnXL/txH1MHTKPE0ldkwMmFXGXoOkVHozvudoblpKN3c1
+Y4TDCsik41xOw4x2IZ/G5x5F7RdEHW9HJl6/OKYL/QgIcQe4KxNQPCV/dSaU9VbE
+mVqWZioTfpIGP9Bz8nad3KrU92olrn79Yi/hJgRs1X0D4ggwr1/5nOuleWHh1Bw7
+C+ElCATftFYrxXygHAjnYPOjiqEyuXQwI1W22dWAkmbtOH5Zvf/agNPlyAhaw8nv
+h8YPLuP2IyznL/lMIixRpHtQw+oZvwk2xxGsOj6JVKATK+kyi8YzYuGSiRxyIhdz
+6Wkl+CsFgc2XarClbAxO+qweqgeRIJgg249NINYl9tJjAdVJwM+v0Oiz52ztFsqo
+4vhJvkJNnQf43wkginT6KXqqp2gUsfZVeevoJudKWD6bm2G6TR2URn5IQk2JB3ZP
+K5IBwKeK2XfmVb0uXwcdY3rlACitHZ60aHn5kws0FCi61B5z
+=tQjG
+-----END PGP MESSAGE-----
